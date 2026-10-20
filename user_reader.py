@@ -15,3 +15,4 @@ def get_user():
     users = get_users()
     return users[0]
 
+
