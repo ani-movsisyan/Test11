@@ -21,3 +21,11 @@ def test_get_user():
         a = print(user1["id"], user1["username"])
 
     print(a)
+
+    data = {
+        "users" : [
+            {"id":101, "username": "test1"},
+            {"id" :102, "username": "test2"},
+            {"id":103, "username": "test3"}
+        ]
+    }

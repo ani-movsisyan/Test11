@@ -16,3 +16,5 @@ def get_user(user_id):
     data = response
 
     return data
+
+
